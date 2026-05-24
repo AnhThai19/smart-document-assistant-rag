@@ -1,0 +1,27 @@
+[
+  {
+    "question": "MongoDB được dùng để làm gì trong hệ thống?",
+    "expected_keywords": ["metadata", "lịch sử chat", "session", "memory"],
+    "expected_source_type": "txt"
+  },
+  {
+    "question": "Pinecone có vai trò gì trong dự án RAG?",
+    "expected_keywords": ["vector", "embedding", "semantic search"],
+    "expected_source_type": "txt"
+  },
+  {
+    "question": "Gemini Embedding API được dùng để làm gì?",
+    "expected_keywords": ["tạo vector", "tài liệu", "câu hỏi"],
+    "expected_source_type": "txt"
+  },
+  {
+    "question": "Groq được dùng ở bước nào?",
+    "expected_keywords": ["sinh câu trả lời", "generation", "context"],
+    "expected_source_type": "txt"
+  },
+  {
+    "question": "FastAPI dùng để làm gì trong hệ thống?",
+    "expected_keywords": ["backend", "API"],
+    "expected_source_type": "txt"
+  }
+]

@@ -254,7 +254,6 @@ Smart-Document-Assistant-RAG/
 │
 ├── frontend/
 │   ├── streamlit_app.py
-│   ├── streamlit_user_app.py
 │   └── requirements.txt
 │
 ├── docker-compose.yml

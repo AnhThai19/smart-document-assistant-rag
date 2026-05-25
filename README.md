@@ -387,33 +387,6 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Run Streamlit Frontend
-
-Open a new terminal.
-
-```bash
-cd frontend
-pip install -r requirements.txt
-streamlit run streamlit_user_app.py
-```
-
-Streamlit will usually run at:
-
-```txt
-http://localhost:8501
-```
-
-There are two frontend versions:
-
-```txt
-streamlit_app.py       → technical/admin demo
-streamlit_user_app.py  → user-facing demo
-```
-
-The user-facing frontend is still being improved.
-
----
-
 ## Run with Docker
 
 Make sure Docker Desktop is running.

@@ -497,36 +497,6 @@ Example response:
 }
 ```
 
----
-
-## Evaluation
-
-A simple retrieval evaluation script is included.
-
-Run from the `backend/` directory:
-
-```bash
-python -m eval.evaluate_retrieval
-```
-
-The script evaluates whether the retriever can find relevant chunks for predefined questions.
-
-Example metrics:
-
-| Metric | Result |
-|---|---:|
-| Number of questions | 5 |
-| Retrieval accuracy@3 | Update after running |
-| Average retrieval latency | Update after running |
-
-Detailed results are saved to:
-
-```txt
-backend/eval/retrieval_eval_results.json
-```
-
----
-
 ## Security Notes
 
 This project uses external services and API keys.
@@ -550,51 +520,3 @@ For security:
 ```
 
 Users who want to run the project need to create their own API keys and fill in their own `.env` file.
-
----
-
-## Current Limitations
-
-- Frontend is still being polished.
-- Scanned PDFs are not supported because OCR is not implemented yet.
-- DOCX files do not have reliable page numbers.
-- Retrieval evaluation is still simple and keyword-based.
-- Authentication is not implemented yet.
-- User management is currently based on a simple `user_id`.
-- Long-term memory and summary memory are not implemented yet.
-- Reranking is not implemented yet.
-- Hybrid search is not implemented yet.
-
----
-
-## Future Improvements
-
-- Polish user-facing Streamlit frontend
-- Add delete document and delete chat session buttons in frontend
-- Improve sidebar chat history layout
-- Add OCR support for scanned PDFs
-- Add summary memory for long conversations
-- Add hybrid search with BM25 + vector search
-- Add reranking
-- Add authentication
-- Add better RAG evaluation
-- Add tracing with LangSmith or LangFuse
-- Deploy backend and frontend
-
----
-
-## Portfolio Highlights
-
-This project demonstrates:
-
-- Building an end-to-end RAG application
-- Working with embeddings and vector databases
-- Integrating LLM APIs into a backend system
-- Designing FastAPI APIs
-- Managing document metadata and chat history with MongoDB
-- Implementing short-term memory
-- Implementing question rewriting for multi-turn chat
-- Supporting multi-document retrieval
-- Evaluating retrieval quality
-- Dockerizing a backend application
-- Building a Streamlit frontend demo

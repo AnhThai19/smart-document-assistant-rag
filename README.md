@@ -462,27 +462,3 @@ Example response:
   ]
 }
 ```
-
-## Security Notes
-
-This project uses external services and API keys.
-
-Required services:
-
-```txt
-- Gemini API for embeddings
-- Groq API for LLM generation and question rewriting
-- Pinecone for vector search
-- MongoDB for document metadata and chat history
-```
-
-For security:
-
-```txt
-- Do not commit backend/.env
-- Do not hard-code API keys
-- Do not copy .env into Docker image
-- Use .env.example as a public template
-```
-
-Users who want to run the project need to create their own API keys and fill in their own `.env` file.

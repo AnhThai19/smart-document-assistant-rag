@@ -319,13 +319,6 @@ MONGODB_URI=your_mongodb_connection_string
 MONGODB_DB_NAME=smart_document_assistant
 ```
 
-Important:
-
-```txt
-Do not commit backend/.env to GitHub.
-Use backend/.env.example for public configuration reference.
-```
-
 ---
 
 ## How to Run Locally

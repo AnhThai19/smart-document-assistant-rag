@@ -11,47 +11,28 @@ The project is designed as a practical RAG application for learning and demonstr
 
 ## Project Status
 
-This project is currently **In Progress**.
+This project is currently **Completed as an MVP**.
 
 ### Completed
 
 - FastAPI backend
-- MongoDB integration for metadata and chat history
+- MongoDB integration for document metadata, chat sessions, and chat history
 - Pinecone vector database integration
 - Gemini Embedding API integration
-- Groq LLM integration for answer generation
-- TXT upload
-- PDF upload
-- DOCX upload
+- Groq LLM integration for answer generation and question rewriting
+- TXT, PDF, and DOCX document upload
 - Raw text ingestion
+- Word-based chunking
 - Document CRUD APIs
-- Chat session APIs
-- Short-term chat memory
-- Question rewriting for follow-up questions
-- Multi-document retrieval support
+- Multi-document retrieval
+- Source-grounded answer generation
+- Chat sessions and chat history
+- Short-term memory
+- Follow-up question rewriting
 - Retrieval evaluation script
-- Docker build for backend
-- Initial Streamlit frontend
-- User-facing Streamlit frontend prototype
-
-### In Progress
-
-- Frontend UI/UX polishing
-- Delete document and delete chat session buttons in user-facing frontend
-- Better chat history layout in sidebar
-- Cleaner commercial-style user interface
-- Docker Compose support for both backend and frontend
-
-### Planned Improvements
-
-- Summary memory for long conversations
-- Better RAG evaluation
-- Hybrid search
-- Reranking
-- OCR support for scanned PDFs
-- Authentication and user management
-- Deployment
-- Improved production-ready frontend
+- Docker backend setup
+- Streamlit frontend demo
+- User-facing document chat interface
 
 ---
 

@@ -1,7 +1,6 @@
 # Smart Document Assistant RAG
 
-**Status:** In Progress  
-**Timeline:** 04/2025 - In Progress
+**Status:** Completed
 
 Smart Document Assistant RAG is an AI-powered document question-answering system that allows users to upload documents and ask questions based on their content.
 

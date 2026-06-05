@@ -74,13 +74,6 @@ Rewritten question:
 Pinecone được dùng để làm gì trong hệ thống Smart Document Assistant RAG?
 ```
 
-### Evaluation
-
-- Simple retrieval evaluation script
-- Keyword-based hit checking
-- Retrieval latency tracking
-- JSON evaluation result output
-
 ---
 
 ## Tech Stack
